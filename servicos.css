@@ -1,0 +1,158 @@
+body{
+    background-color: #05e7ad;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+    
+.logo{
+    height: 100px;
+    width: 140px;
+}
+     
+nav ul{
+    list-style: none;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    gap: 20px;
+}
+    
+nav ul li a{
+    text-decoration: underline;
+    color: #2c1d6c;
+    font-size: 20px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+main{
+    padding: 20px;
+}
+
+.logo{
+    height: 100px;
+    width: 140px;
+}
+
+.titulo{
+    padding: 8px ;
+    height: 25px;
+    font-size: 30px;
+    font-family: 'itim' ;
+    color: black;
+    margin-left: 550px;
+}
+
+.bicicletas{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    width: 500px;
+   
+}
+
+.patinetes{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    width: 500px;
+}
+
+.button{
+    height: 35px;
+    width: 70px;
+    border-radius: 15px;
+    padding: 15px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #515151;
+    padding: 12px;
+    color: #ffffff;                                                                                                
+    text-align: center;
+    height: 30PX;
+    margin-top: 50px;
+}
+
+.products {
+    display: flex; /* Exibe os itens em uma linha */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    gap: 100px; /* Espaçamento entre os itens */
+    justify-content: 10; /* Centraliza os itens na grade */
+}
+
+.product {
+    flex: 1 1 calc(1% - 40px); /* Cada item ocupa 50% da largura menos o gap */
+    max-width: 100%; /* Limita a largura máxima */
+    background-color: #000000; /* Fundo branco para destacar o produto */
+    color: #ffffff; /* Cor do texto preto */
+    text-align: justify; /* Alinha o conteúdo ao centro */
+    padding: 0px; /* Espaçamento interno */
+    border-radius: 0px; /* Cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    margin-left: 150px;
+}
+
+.product img {
+    max-width: 100%; /* Ajusta a imagem para caber dentro do container */
+    height: 300px; /* Mantém a proporção da imagem */
+    border-radius: 160px; /* Cantos arredondados na imagem */
+}
+
+.product h4, .product h3 {
+    margin: 0px 0; /* Espaçamento acima e abaixo do título */
+    font-size: 13px; /* Tamanho da fonte */
+}
+
+.product p {
+    font-size: 16px; /* Tamanho da fonte da descrição */
+    margin: 10px 0; /* Espaçamento acima e abaixo do texto */
+}
+
+.product .button a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #ffffff; /* Define a cor do texto dentro do botão */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.product .button {
+    background-color: #05e7ad; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    text-align: center; /* Centraliza o texto */
+    font-size: 14px; /* Tamanho do texto */
+    transition: background-color 0.3s; /* Animação ao passar o mouse */
+}
+
+.product .button:hover {
+    background-color: #048f6e; /* Cor do botão ao passar o mouse */
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha */
+    gap: 20px; /* Espaçamento entre as lacunas */
+}
+
+.product {
+    flex: 1 1 calc(35% - 1px); /* Ocupa 45% da largura menos o gap */
+    max-width: 34%; /* Limita a largura máxima */
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 2px; /* Espaçamento interno */
+    border-radius: 50px; /* Cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+

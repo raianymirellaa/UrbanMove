@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--Línguagem do Site-->
+  <head>
+    <!-- Configurações de metadados -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pagina_inicial.css" /> <!--CSS da página inicial-->
+    <title>SubUrban</title>
+    <link rel="icon" href="Logo_inicial.png" type="image/x-icon"> <!--Logo da aba do site-->
+  </head>
+  <body>
+    <!-- Cabeçalho do site -->
+    <header>
+      <a href="pagina_inicial.html"><img src="Logo_inicial.png" alt="Logo" class="logo" /></a>
+    
+      <nav class="abas">
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="sugestoes.html">Sugestões</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+
+
+    <!-- Conteúdo principal -->
+    <main>
+      <!-- Botão para informar o CEP -->
+      <a href="informe_seu_cep.html"> <div><img class="informe_seu_cep" src="InformeSeuCep.png"></div></a>
+
+      <!-- Barra de pesquisa -->
+      <div class="pesquisa">
+        <button class="menu-button"> <!--Input para fazer o menu-->
+          <span>&#9776;</span>
+        </button>
+        <input type="text" class="search-input" placeholder="Pesquisar" /> <!--Imput para fazer a caixa de texto e oque está escrito-->
+        <button class="search-button"> <!--Input para fazer o simbolo de pesquisar da caixa de pesquisa-->
+          <span>&#128269;</span>
+        </button>
+      </div>
+
+      <!-- Conteúdo informativo -->
+      <div class="container" style="display: flex; width: 1200px;"> <!--Configuração do texto-->
+        <div class="container" style="width: 725px; text-align: justify"> 
+          <u class="sabia"> Você Sabia??</u>
+          <!-- Texto informativo -->
+          <p class="texto_inicial">
+            Os acidentes de trânsito são uma das principais causas de morte em diversas faixas etárias, com um aumento significativo no Brasil entre 2000 e 2011. A mortalidade de motociclistas cresceu, enquanto a de pedestres diminuiu. Em resposta a essa situação, a ONU e a OMS proclamaram a Década de Ação pela Segurança no Trânsito (2011-2020), visando reduzir fatalidades por meio de intervenções em gestão, infraestrutura, segurança veicular e comportamento dos usuários.
+          <p class="texto_inicial">
+            A pesquisa foi descritiva e transversal, realizada em 2016 com 300 participantes. O foco foi entender a percepção dos usuários sobre segurança no trânsito. Os entrevistados foram selecionados em locais públicos para garantir diversidade na amostra. Um questionário estruturado abordou comportamentos no trânsito e percepções sobre segurança.
+
+          <!-- Imagem ilustrativa -->
+          <div>
+            <img
+              class="img_inicial"
+              src="ImagemIlustrativa1.png"
+              alt="Imagem 1"
+            />
+          </div>
+        </div>
+      </div>          
+
+      <div class="container" style="display: flex; "> 
+          <div class="image-text-container" > 
+            <img src="ImagemIlustrativa2.png" alt="Imagem de CNH">
+          </div>
+          <div class="texto_02" style="text-align: justify; margin: 20px; font-family: Arial, sans-serif; color: #333;">
+              <p style="width: 700px;">
+                  Dos entrevistados, 68,3% possuíam Carteira Nacional de Habilitação (CNH). A maioria relatou respeitar as normas de trânsito, mas 9% admitiram dirigir após consumir álcool. Quase 40% dos participantes se envolveram em acidentes, e muitos relataram mudanças positivas em seus comportamentos após esses eventos.
+              </p>
+          </div>               
+      </div>
+
+      <div class="ultimo_text" style="display: flex; width: 1200px;"> <!--Configuração do texto-->
+        <div class="ultimo_text" style="width: 725px; height: 650px; text-align: justify"> 
+          <!-- Texto informativo -->
+           <p style="width: 700px;">  A predominância masculina entre os motoristas está alinhada com dados anteriores, indicando que os homens são mais vulneráveis a acidentes devido à sua maior exposição ao trânsito. A pesquisa destaca a necessidade de estratégias focadas na educação e fiscalização para mitigar os riscos associados ao trânsito.Este resumo sintetiza os principais pontos do artigo, destacando a importância da percepção pública na formulação de políticas para melhorar a segurança no trânsito. </p>
+         </div> 
+          
+         <div>
+            <img class="img_acidente" src="PgInicial_acidentes.png" alt="Imagem 3" />
+         </div>
+        
+      </div>
+
+
+  </main>
+  <footer class="footer">
+    <p>Copyright©2024, UrbanMove. Todos os direitos reservados.</p>
+  </footer>
+</html>

@@ -1,0 +1,144 @@
+body{
+  background-color: #05e7ad;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+header{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+  
+.logo{
+  height: 100px;
+  width: 140px;
+}
+   
+nav ul{
+  list-style: none;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  gap: 20px;
+}
+  
+nav ul li a{
+  text-decoration: underline;
+  color: #2c1d6c;
+  font-size: 20px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+  
+.pesquisa{
+  display: flex;
+  justify-content: center;
+  margin: -55px 10px 0 10px; 
+
+}
+
+.pesquisa input[type="text"]{
+  padding: 12px;
+  width: 375px;
+}
+  
+.menu-button,
+.search-button{
+  cursor: pointer;
+  width: 46px;
+}
+  
+main{
+  padding: 20px;
+}
+  
+.sabia{
+  font-size: 29px;
+  color: #000;
+}
+
+.informe_seu_cep{
+  width: 150px ;
+  height: 60px;
+}
+
+.img_inicial{
+  margin-left: 850px;
+  margin-top: -400px;
+}
+
+.texto_inicial{
+  color: #000;
+  font-size: 20px;
+  text-align:justify;
+  word-spacing: 4px;
+}
+
+.texto_02{
+  text-align: justify;
+  color: #070707;
+  font-size: 22px;
+  word-spacing: 4px;
+  line-height: 1.5;
+  margin-bottom: 10px; 
+}
+
+.image-text-container {
+  width: 1200px;
+  display: flex;
+  gap: 90px; 
+  padding:0px;
+
+}
+
+.image-text-container img {
+  width: 480px;
+  height: 300px;
+  margin-left: 40px ;
+} 
+
+
+.container{
+  padding: 17px;
+  align-items: center;
+}
+
+.container img{
+  border-radius: 20px;
+  width: 510px;
+  height: 380px;
+  
+}
+
+.img_acidente{
+  width: 550px;
+  height: 300px;
+  margin-left: 110px;
+
+
+}
+
+.ultimo_text{
+  text-align: justify;
+  color: #070707;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px; 
+  word-spacing: 4px;
+ padding: 20px;
+
+}
+
+footer{
+  background-color: #515151;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+  height: 30PX;
+  margin-top: 580px;
+}

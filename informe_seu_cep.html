@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UrbanMove</title>
+        <link rel="icon" href="Logo_inicial.png" type="image/x-icon">
+        <style>
+            body { font-family: Arial, sans-serif; margin: 0; background: #05e7ad; position: relative; min-height: 100vh;}
+            header { background: #ffffff; padding: 30px; display: flex; justify-content: space-between; align-items: center; position: relative;}
+            header nav a { color: #2c1d6c;; text-decoration: underline; font-size: 20px; margin: 0 10px; padding: 10px 0; line-height: 1.2; padding-bottom: 5px; display: inline-block;}
+            .container { display: flex; justify-content: space-around; padding: 20px; background: #05e7ad;}
+            .product, .payment-area { width: 45%; background: white; border-radius: 10px; padding: 20px;}
+            .product img { width: 50%; border-radius: 30px;}
+            .time-options button, .payment-area button { width: 48%; padding: 10px; margin: 5px 0; border: none; border-radius: 5px; font-weight: bold; cursor: pointer;}
+            .time-options button { background: #05e7ad; color: white;}
+            .payment-area button { background: red; color: white; margin-top: 10px;}
+            input { width: 90%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;}
+            .logo { position: absolute; top: -2px; left: 16px; width: 140px; height: 100px;}
+            .payment-methods { width: 1px;}
+            .robo {width: 260px; height: 60px; }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="pagina_inicial.html"><img src="Logo_inicial.png" alt="Logo" class="logo"></a>
+            <div>ㅤ</div>
+            <nav>
+                <a href="sobre.html">Sobre</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="sugestoes.html">Sugestões</a> 
+            </nav>
+        </header>
+        <div class="container">
+            <div class="payment-area">
+                <h2>Cadastro de dados</h2>
+                <div class="texto">
+                    <p>AVISO! Todos os dados são protegidos para a segurança do usuário &#9888;</p>
+                    <p> Digite a seguir:</p>
+                    
+                </div>
+                <input type="text" placeholder="CPF: 000.000.000-00">
+                <input type="text" placeholder="Endereço: Rua Pangaré, Nº 22">
+                <input type="text" placeholder="Telefone: (00) 00-00000-0000">
+                <div class="payment-methods">
+                    <img class="robo "src="EuNaoSouUmRobo.png" alt="Formas de Pagamento">
+                </div>
+
+                <button id="finish-button" onclick="window.location.href='cadastro_concluido.html'">Finalizar</button>
+            </div>
+        </div>
+        <script>
+
+            const oneDayButton = document.getElementById('one-day');
+            const threeDaysButton = document.getElementById('three-days');
+            const priceText = document.getElementById('price-text');
+            const finishButton = document.getElementById('finish-button');
+
+            oneDayButton.addEventListener('click', () => {
+                priceText.innerHTML = '1 Dia → R$ 150,00';
+            });
+            threeDaysButton.addEventListener('click', () => {
+                priceText.innerHTML = '3 Dias → R$ 375,00';
+            });
+            finishButton.addEventListener('click', () => {
+                alert('Pagamento finalizado com sucesso!');
+            });
+        </script>
+    </body>
+
+</html>
+
